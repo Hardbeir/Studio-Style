@@ -1,0 +1,338 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,p,a{
+    margin: 0 auto;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+     
+}
+div,p,a,span{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth; /*scroll*/
+}
+::-webkit-scrollbar { width: 3px; height: 3px;}
+::-webkit-scrollbar-button {  background-color: #666; }
+::-webkit-scrollbar-track {  background-color: #999;}
+::-webkit-scrollbar-track-piece { background-color: #ffffff;}
+::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
+::-webkit-scrollbar-corner { background-color: #999;}
+::-webkit-resizer { background-color: #666;}
+
+.container{
+width: 1170px;
+margin: 0 auto;
+}
+
+.header{
+    background: #CEAE07;
+ padding-top: 66px;
+ padding-bottom: 40px;
+}
+.packman::before{
+    content: '';
+    position: absolute;
+    width: 574.93px;
+    height: 143px;
+    margin-top: 28px;
+    background: url(../img/pack__headers.png) no-repeat center  center;
+    
+}
+.logo h2{
+    color: white;
+    font-size: 38px
+}
+.gradient-text{
+    font-size: 22px;
+    background: linear-gradient(87.31deg, #342C02 0.25%, #767676 64.49%);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 30px;
+}
+
+
+.offer{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    padding-bottom: 20px;
+}
+.title{
+    font-weight: 600;
+    margin-left: 42px;
+    margin-top: 300px;
+    line-height: 23px;
+    font-size: 24px;
+    color: #313131;
+}
+
+
+.progress__text{
+    font-weight: 600;
+    line-height: 23px;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.progress__table{
+    width: 366px;
+    height: 448px;
+    background: #C3A507;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 53px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height: 97%;
+    
+}
+.figma{
+    width: 70px;
+    height: 70px;
+    background: url(../img/figma.png) no-repeat center center;
+}
+.uml{
+    width: 100px;
+    height: 72.75px;
+    background: url(../img/uml.png) no-repeat center center;
+}
+.ps{
+    width: 71.17px;
+    height: 70px;
+    background: url(../img/ps.png) no-repeat center center;
+}
+.css{
+    width: 70px;
+    height: 99.28px;
+    background: url(../img/css.png) no-repeat center center;
+}
+.js{
+    width: 70px;
+    height: 112px;
+    background: url(../img/js.png) no-repeat center center;
+}
+.html{
+    width: 70px;
+    height: 98.46px;
+    background: url(../img/html.png) no-repeat center center;
+}
+.mysql{
+    width: 80px;
+    height: 80px;
+    background: url(../img/mysql.png) no-repeat center center;
+}
+.wrd{
+    width: 80px;
+    height: 80px;
+    background: url(../img/wordpress.png) no-repeat center center;
+}
+.bst{
+    width: 80px;
+    height: 80px;
+    background: url(../img/bootstrap.png) no-repeat center center;
+}
+.csharp{
+    width: 80px;
+    height: 89.89px;
+    background: url(../img/csharp.png) no-repeat center center;
+}
+.mssql{
+    width: 200px;
+    height: 49.81px;
+    background: url(../img/ms\ sql.png) no-repeat center center;
+    flex-grow: 1;
+}
+.icon{
+    margin-top: 23px;
+    flex-basis: 32%;
+    padding-top: 12px;
+    transition: 0.3s;
+}
+.icon:hover{
+    transform: scale(1.1);
+}
+.button{
+    background: url(../img/button.png) no-repeat center center;
+    width: 57.2px;
+    height: 58.11px;
+    margin: 0 auto;
+    transition: 0.3s;
+}
+.button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#project{
+    background:black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-title{
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.stack{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: stretch;
+    margin-top: 65px;
+}
+
+.item{
+    width: 350px;
+    height: 197px;  
+    flex-basis: 30%;
+    border-radius: 5px;
+     margin: 0 auto;
+    margin-top: 30px;
+    
+}
+.item__title, .item__button{
+    opacity: 0;
+}
+.item:hover{
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+.item:hover::before{
+    content: '';
+    position: absolute;
+    width: 350px;
+    height: 197px;
+    border-radius: 5px;
+    background: rgba(64, 64, 64, 0.71);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.item__title{
+    margin-top: 10px;  
+    margin-left: 10px;
+    position: relative; 
+    
+}
+.item__title p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+ /**** item__button ****/
+.item:hover .item__title{
+    opacity: 1;
+    flex-basis: 67%;
+    transition: all 0.9s ease;
+} 
+.item:hover .item__button{
+    opacity: 1;
+    flex-basis: 10%;
+    margin-right: 3px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    transition: all 0.9s ease;
+    
+} 
+
+.item__btn{
+    padding: 8px 25px;
+    margin-top: 10px;
+    padding: 10px 25px;
+    font-weight: bold;
+    font-size: 16px;
+    background: transparent;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+     position: relative;
+    color: white;
+}
+.btn {
+  border: 2px solid #000;
+  z-index: 1;
+}
+.btn:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background: #000;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  color: #fff;
+}
+.btn:hover:after {
+  top: 0;
+  height: 100%;
+}
+.btn:active {top: 2px;}
+/*END item__button*/
+
+
+.studio_style{
+    background: url(../img/project_1.png) no-repeat center center;
+}
+/*.studio_style:hover::before{
+    content: "Hello!";
+    position: absolute;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 140px;
+}*/
+.sale_house{
+    background: url(../img/sale_house.png)  no-repeat;
+}
+
+
+.man_store{
+    background: url(../img/man_store.png)  no-repeat center center;
+}
+.old_hostel{
+    background: url(../img/old_hostel.png)  no-repeat center center;
+}
+
+.footer{
+    color: white;
+    background: black;
+    font-size: 13px;
+    flex-shrink: 0;
+}
+
+.credits{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+
+
+ 
